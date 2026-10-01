@@ -158,8 +158,7 @@ The alert was verified in the Wazuh dashboard and documented in the investigatio
 
 
 
-\[Failed Login Investigation](investigation/failed-login-investigation.md)
-
+[Failed Login Investigation](investigation/failed-login-investigation-report.md)
 
 
 ##### 2\. Nmap Network Scan Investigation
