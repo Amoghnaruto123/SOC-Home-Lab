@@ -115,6 +115,14 @@ The successful alert generation validated the custom detection rule and demonstr
 
 The Nmap scan and corresponding Wazuh alert screenshots are available in the `Screenshots_evidence` folder.
 
+Nmap Scan: 
 ![Nmap Scan](Screenshots_evidence/nmap_scan.png)
+
+Nmap Detection Alert: 
+![Nmap detection-alert](Screenshots_evidence/nmap-detection-alert.png.png)
+
+
+
+
 
 ![Nmap Detection Alert](Screenshots_evidence/nmap-detection-alert.png)
