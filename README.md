@@ -225,7 +225,7 @@ The dashboard includes:
 
 
 
-!\[Wazuh SOC Dashboard](investigation/Screenshots\_evidence/wazuh-dashboard.png)
+\[Wazuh SOC Dashboard](investigation/Screenshots\_evidence/Wazuh-dashboard.png)
 
 
 
@@ -233,7 +233,7 @@ The dashboard includes:
 
 
 
-!\[Custom Rules](investigation/Screenshots\_evidence/custom-rules.png)
+\[Custom Rules](investigation/Screenshots\_evidence/custom-rules.png)
 
 
 
@@ -243,25 +243,25 @@ The dashboard includes:
 
 ###### &#x20;- Notepad Detection
 
-!\[Notepad Detection](investigation/Screenshots\_evidence/notepad-detection.png)
+\[Notepad Detection](investigation/Screenshots\_evidence/notepad-detection.png.png)
 
 
 
 ###### &#x20;- PowerShell Detection
 
-!\[PowerShell Alert](investigation/Screenshots\_evidence/powershell-alert.png)
+\[PowerShell Alert](investigation/Screenshots\_evidence/powershell-alert.png.png)
 
 
 
 ###### &#x20;- Failed Login Detection
 
-!\[Failed Login Alert](investigation/Screenshots\_evidence/failed-login-alert.png)
+\[Failed Login Alert](investigation/Screenshots\_evidence/failed-login-report.png)
 
 
 
 ###### &#x20;- Nmap Detection
 
-!\[Nmap Detection Alert](investigation/Screenshots\_evidence/nmap-detection-alert.png)
+\[Nmap Detection Alert](investigation/Screenshots\_evidence/nmap-detection-alert.png.png)
 
 ###### &#x20;
 
