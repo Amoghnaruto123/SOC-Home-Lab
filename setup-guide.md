@@ -210,30 +210,45 @@ ip addr
 ping -c 4 192.168.56.1
 ```
 A missing ping response does not necessarily mean the endpoint is unreachable; Windows Firewall may block ICMP.
-4.3 Run the Nmap scan
+### 4.3 Run the Nmap Scan
+
 The lab scan targeted selected Windows ports:
+
 ```bash
 nmap -sS -Pn -p 135,139,445,3389 192.168.56.1
 ```
-Option	Meaning
-`-sS`	TCP SYN scan
-`-Pn`	Skip host discovery and treat the target as online
-`-p`	Specify ports to scan
-`135,139,445,3389`	Selected ports
-`192.168.56.1`	Windows endpoint
+
+| Option | Meaning |
+|---|---|
+| `-sS` | TCP SYN scan |
+| `-Pn` | Skip host discovery and treat the target as online |
+| `-p` | Specify ports to scan |
+| `135,139,445,3389` | Selected ports |
+| `192.168.56.1` | Windows endpoint |
+
 The selected ports were reported as filtered in the lab. Windows Filtering Platform generated Event ID `5157` for blocked connections. The Wazuh agent forwarded matching events, and custom rule `100103` generated alerts for the Kali source address.
-5. Final Verification
-Component or test	Verification
-Wazuh manager	Service active
-Wazuh dashboard	Accessible in browser
-Windows agent	`SOC-Windows` (ID `001`) active
-Notepad	Rule `100100` alert generated
-PowerShell	Rule `100101` alert generated
-Failed login	Rule `100102` alert generated
-Kali Nmap scan	Rule `100103` alert generated
-Investigation reports	Failed-login and Nmap reports documented
+
+---
+
+## 5. Final Verification
+
+| Component or test | Verification |
+|---|---|
+| Wazuh manager | Service active |
+| Wazuh dashboard | Accessible in browser |
+| Windows agent | `SOC-Windows` (ID `001`) active |
+| Notepad | Rule `100100` alert generated |
+| PowerShell | Rule `100101` alert generated |
+| Failed login | Rule `100102` alert generated |
+| Kali Nmap scan | Rule `100103` alert generated |
+| Investigation reports | Failed-login and Nmap reports documented |
+
 The lab demonstrated centralized Windows event monitoring, Sysmon process monitoring, custom rule creation and validation, failed-login detection, blocked-connection detection, and dashboard-based alert review.
-6. Related Documentation
-Project README
-Failed Login Investigation
-Nmap Network Scan Investigation
+
+---
+
+## 6. Related Documentation
+
+- [Project README](README.md)
+- [Failed Login Investigation](investigation/failed-login-investigation.md)
+- [Nmap Network Scan Investigation](investigation/nmap-scan-investigation.md)
