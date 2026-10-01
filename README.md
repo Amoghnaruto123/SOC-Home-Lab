@@ -221,49 +221,37 @@ The dashboard includes:
 
 
 
-###### &#x20;- Dashboard
 
+## Dashboard Screenshots
 
+### Wazuh SOC Dashboard
+![Wazuh SOC Dashboard](investigation/Screenshots_evidence/Wazuh-dashboard.png)
 
-\[Wazuh SOC Dashboard](investigation/Screenshots\_evidence/Wazuh-dashboard.png)
+### Custom Detection Rules
+![Custom Detection Rules](investigation/Screenshots_evidence/custom-rules.png)
 
+## Detection Evidence
 
+### Notepad Process Detection
+![Notepad Detection](investigation/Screenshots_evidence/notepad-detection.png.png)
 
-###### &#x20;- Custom Detection Rules
+### Notepad Alert
+![Notepad Alert](investigation/Screenshots_evidence/notepad-alert.png.png)
 
+### PowerShell Detection
+![PowerShell Alert](investigation/Screenshots_evidence/powershell-alert.png.png)
 
+### Failed Login Detection
+![Failed Login Alert](investigation/Screenshots_evidence/failed-login-alert.png.png)
 
-\[Custom Rules](investigation/Screenshots\_evidence/custom-rules.png)
+### Nmap Detection
+![Nmap Detection Alert](investigation/Screenshots_evidence/nmap-detection-alert.png.png)
 
+### Nmap Scan
+![Nmap Scan](investigation/Screenshots_evidence/nmap_scan.png)
 
-
-###### &#x20;- Detection Evidence
-
-
-
-###### &#x20;- Notepad Detection
-
-\[Notepad Detection](investigation/Screenshots\_evidence/notepad-detection.png.png)
-
-
-
-###### &#x20;- PowerShell Detection
-
-\[PowerShell Alert](investigation/Screenshots\_evidence/powershell-alert.png.png)
-
-
-
-###### &#x20;- Failed Login Detection
-
-\[Failed Login Alert](investigation/Screenshots\_evidence/failed-login-report.png)
-
-
-
-###### &#x20;- Nmap Detection
-
-\[Nmap Detection Alert](investigation/Screenshots\_evidence/nmap-detection-alert.png.png)
-
-###### &#x20;
+### Wazuh Alert Details
+![Wazuh Alert Details](investigation/Screenshots_evidence/wazuh-alert-details.png.png)
 
 ###### 
 
