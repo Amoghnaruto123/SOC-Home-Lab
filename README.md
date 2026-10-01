@@ -261,41 +261,27 @@ The dashboard includes:
 
 
 
-SOC-Home-lab/
 
-│
+## Project Structure
 
+```text
+SOC-Home-Lab/
 ├── README.md
-
-│
-
+├── setup-guide.md
 └── investigation/
-
-&#x20;   ├── failed-login-investigation.md
-
-&#x20;   ├── nmap-investigation.md
-
-&#x20;   │
-
-&#x20;   └── Screenshots\_evidence/
-
-&#x20;       ├── wazuh-alert-details.png
-
-&#x20;       ├── custom-rules.png
-
-&#x20;       ├── nmap-scan.png
-
-&#x20;       ├── notepad-detection.png
-
-&#x20;       ├── notepad-alert.png
-
-&#x20;       ├── powershell-alert.png
-
-&#x20;       ├── failed-login-alert.png
-
-&#x20;       ├── nmap-detection-alert.png
-
-&#x20;       └── wazuh-dashboard.png
+    ├── failed-login-investigation-report.md
+    ├── nmap-scan-investigation.md
+    └── Screenshots_evidence/
+        ├── Wazuh-dashboard.png
+        ├── custom-rules.png
+        ├── failed-login-alert.png.png
+        ├── nmap-detection-alert.png.png
+        ├── nmap_scan.png
+        ├── notepad-alert.png.png
+        ├── notepad-detection.png.png
+        ├── powershell-alert.png.png
+        └── wazuh-alert-details.png.png
+```
 
 
 
