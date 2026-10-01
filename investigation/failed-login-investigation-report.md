@@ -52,4 +52,4 @@ The custom Wazuh rule successfully detected the simulated failed login and gener
 
 The corresponding failed-login alert is available in the repository's `Screenshots_evidence` folder.
 
-![Failed Login Alert](Screenshots_evidence/failed-login-alert.png)
+![Failed Login Alert](Screenshots_evidence/failed-login-alert.png.png)
